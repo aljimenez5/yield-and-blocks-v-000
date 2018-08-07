@@ -5,6 +5,7 @@ def hello_t(array)
       yield (array[count])
       count += 1 
     end
+    array
   end
   array
 end
